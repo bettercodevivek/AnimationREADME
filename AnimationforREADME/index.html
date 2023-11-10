@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gitreadme</title>
+    <link rel="stylesheet" href="gitreadme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="particles-js">
+      <div id="typewriter-js"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+     
+      
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script>
+      particlesJS.load('particles-js','particles.json',function(){
+        console.log("particles.json loaded....")
+      })
+    </script>
+
+    <script>
+      const instance = new Typewriter('#typewriter-js', {
+    loop: true
+});
+instance.typeString("Hey there,I am Vivek")
+    .pauseFor(10)
+    .deleteAll()
+    .typeString('A FrontEnd developer from India,')
+    .pauseFor(10)
+    .deleteAll()
+    .typeString('I like building innovative')
+    .pauseFor(10)
+    .deleteAll()
+    .typeString('and user-friendly websites')
+     .pauseFor(10)
+    .deleteAll()
+    .typeString('git commit -m "bettercodevivek"')
+    .pauseFor(10)
+    .deleteAll()
+    .start();
+
+    </script>
+  </body>
+</html>
