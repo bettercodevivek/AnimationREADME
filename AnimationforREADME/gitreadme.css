@@ -1,0 +1,27 @@
+body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
+  
+  
+  #particles-js{
+    background:#000;
+    width:120%;
+    height:140%;
+    position:relative;
+    margin-top:-20px;
+    margin-left:-15px;
+  }
+  
+  #typewriter-js{
+    background:none;
+    z-index:10;
+    position:relative;
+    top:300px;
+    left:360px;
+      font-size: 50px;
+      font-family: 'Philosopher', sans-serif;
+      font-weight:bold;
+      width: 800px;
+      color:#1fea00;
+  }
